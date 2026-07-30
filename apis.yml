@@ -1,8 +1,24 @@
 aid: lithos-carbon
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lithos-carbon.png
 name: Lithos Carbon
-description: 'Lithos Carbon is a company surfaced as a portfolio company of bain-capital-ventures, union-square-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: physical-ai. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Lithos Carbon delivers permanent carbon dioxide removal through enhanced rock weathering
+  on agricultural land. The company applies crushed basalt to farm fields, where it captures atmospheric
+  CO2 while raising soil pH, replenishing nutrients (iron, magnesium, phosphorus, calcium), improving
+  crop yields, and building resilience to drought and pests. Lithos uses machine-learning soil models
+  to optimize basalt application rates and provides measurement, reporting, and verification of the
+  resulting carbon removal, managing delivery, sampling, and installation end to end for farmers and
+  carbon-credit buyers. Backed by Bain Capital Ventures and Union Square Ventures.'
 url: https://raw.githubusercontent.com/api-evangelist/lithos-carbon/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Physical Ai
+- Carbon Removal
+- Enhanced Weathering
+- Climate
+- Agriculture
+- Carbon Credits
+- Soil
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +46,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/lithos-carbon-domain-security.yml
 - type: Website
   url: https://www.lithoscarbon.com/
+- type: Blog
+  url: https://lithos.substack.com/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
